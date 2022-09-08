@@ -10,8 +10,8 @@ matplotlib.rcParams.update({'font.size': 9})
 ls1, ls2 = 355,5 # range of the two solar longitudes we want to look at
 #temp_avg, press_avg, h = zonal_temperature('/scratch2/p/pen/sokvisal/planetWRF/WRFV3/run/wrfout_d01_0001-00601_00:00:00', ls1, ls2)
 #u_avg = zonal_wind('/scratch2/p/pen/sokvisal/planetWRF/WRFV3/run/wrfout_d01_0001-00601_00:00:00', ls1, ls2)
-temp_avg, press_avg, h = zonal_temperature('/scratch2/p/pen/sokvisal/mars/planetWRF-dev-new/WRFV3/test/em_global_mars/wrfout_d01_0001-00651_00:00:00', ls1, ls2)
-u_avg = zonal_wind('/scratch2/p/pen/sokvisal/mars/planetWRF-dev-new/WRFV3/test/em_global_mars/wrfout_d01_0001-00651_00:00:00', ls1, ls2)
+temp_avg, press_avg, h = zonal_temperature('/mars/planetWRF-dev-new/WRFV3/test/em_global_mars/wrfout_d01_0001-00651_00:00:00', ls1, ls2)
+u_avg = zonal_wind('/mars/planetWRF-dev-new/WRFV3/test/em_global_mars/wrfout_d01_0001-00651_00:00:00', ls1, ls2)
 
 
 lat = np.linspace(-90,90,36) # latitude
